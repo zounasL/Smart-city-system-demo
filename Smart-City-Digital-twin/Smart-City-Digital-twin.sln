@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISMapsSDK.Samples", "ArcGISMapsSDK.Samples.csproj", "{26BDFBDC-DF26-8A94-0984-877A7F069164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{40E5F415-7A0E-642A-0555-54BCB64E28FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esri.HPFramework", "Esri.HPFramework.csproj", "{9CC95F41-C849-27EF-F7ED-A20655CAC561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISMapsSDK", "ArcGISMapsSDK.csproj", "{138DACF3-70D0-4ADA-E213-85BD11B77D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISMapsSDK.Samples.Editor", "ArcGISMapsSDK.Samples.Editor.csproj", "{E1BB0E5A-D7A3-9648-6298-5727EA19B1E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{7677E270-5B36-CA7D-3178-2B5AB36D6E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISMapsSDK.Editor", "ArcGISMapsSDK.Editor.csproj", "{4F7A1AAF-EEA6-EC1A-25A9-01E2CC7C5DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esri.HPFramework.Editor", "Esri.HPFramework.Editor.csproj", "{86315AFF-C65F-CCC5-4850-824E0C993F5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26BDFBDC-DF26-8A94-0984-877A7F069164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BDFBDC-DF26-8A94-0984-877A7F069164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BDFBDC-DF26-8A94-0984-877A7F069164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BDFBDC-DF26-8A94-0984-877A7F069164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E5F415-7A0E-642A-0555-54BCB64E28FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E5F415-7A0E-642A-0555-54BCB64E28FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E5F415-7A0E-642A-0555-54BCB64E28FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E5F415-7A0E-642A-0555-54BCB64E28FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC95F41-C849-27EF-F7ED-A20655CAC561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC95F41-C849-27EF-F7ED-A20655CAC561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC95F41-C849-27EF-F7ED-A20655CAC561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC95F41-C849-27EF-F7ED-A20655CAC561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138DACF3-70D0-4ADA-E213-85BD11B77D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138DACF3-70D0-4ADA-E213-85BD11B77D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138DACF3-70D0-4ADA-E213-85BD11B77D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138DACF3-70D0-4ADA-E213-85BD11B77D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BB0E5A-D7A3-9648-6298-5727EA19B1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BB0E5A-D7A3-9648-6298-5727EA19B1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BB0E5A-D7A3-9648-6298-5727EA19B1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BB0E5A-D7A3-9648-6298-5727EA19B1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7677E270-5B36-CA7D-3178-2B5AB36D6E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7677E270-5B36-CA7D-3178-2B5AB36D6E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7677E270-5B36-CA7D-3178-2B5AB36D6E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7677E270-5B36-CA7D-3178-2B5AB36D6E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7A1AAF-EEA6-EC1A-25A9-01E2CC7C5DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7A1AAF-EEA6-EC1A-25A9-01E2CC7C5DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7A1AAF-EEA6-EC1A-25A9-01E2CC7C5DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7A1AAF-EEA6-EC1A-25A9-01E2CC7C5DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86315AFF-C65F-CCC5-4850-824E0C993F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86315AFF-C65F-CCC5-4850-824E0C993F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86315AFF-C65F-CCC5-4850-824E0C993F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86315AFF-C65F-CCC5-4850-824E0C993F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

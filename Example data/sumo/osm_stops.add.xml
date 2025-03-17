@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-03 00:22:40 by Eclipse SUMO netconvert Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Users\Joonas\Downloads\sumo-win64-1.19.0\sumo-1.19.0\tools\..\data\typemap\osmNetconvert.typ.xml,C:\Users\Joonas\Downloads\sumo-win64-1.19.0\sumo-1.19.0\tools\..\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Users\Joonas\Downloads\sumo-win64-1.19.0\sumo-1.19.0\tools\..\data\typemap\osmNetconvertPedestrians.typ.xml,C:\Users\Joonas\Downloads\sumo-win64-1.19.0\sumo-1.19.0\tools\..\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-427144104" name="Urhonkatu 1" lane="-36736000#12_0" startPos="42.40" endPos="57.40" friendlyPos="true" lines="1 2 3 2M 10 43 42 27 20 25">
+        <access lane="-39544441#6_0" pos="26.29" length="1.50" friendlyPos="1"/>
+        <access lane="-39544441#7_0" pos="14.07" length="46.89" friendlyPos="1"/>
+        <access lane="122217269#0_0" pos="0.00" length="44.03" friendlyPos="1"/>
+        <access lane="39544441#6_0" pos="50.72" length="1.50" friendlyPos="1"/>
+        <access lane="39544441#7_0" pos="0.00" length="46.97" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-427144110" name="Jyväskylä Keskusta 3" lane="-55358955_0" startPos="45.57" endPos="60.57" friendlyPos="true">
+        <access lane="-39401888#3_0" pos="85.14" length="55.99" friendlyPos="1"/>
+        <access lane="1082148693#6_0" pos="87.69" length="34.76" friendlyPos="1"/>
+        <access lane="1085609933#4_0" pos="53.01" length="0.00" friendlyPos="1"/>
+        <access lane="1085609933#6_0" pos="135.33" length="15.26" friendlyPos="1"/>
+        <access lane="90513822#2_0" pos="53.28" length="8.80" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-427144113" name="Jyväskylä Keskusta 2" lane="-650577130#0_0" startPos="5.09" endPos="20.09" friendlyPos="true">
+        <access lane="-121551922#1_0" pos="0.00" length="21.73" friendlyPos="1"/>
+        <access lane="-121551922#2_0" pos="6.12" length="22.16" friendlyPos="1"/>
+        <access lane="1085609933#3_0" pos="165.59" length="0.00" friendlyPos="1"/>
+        <access lane="1085609933#7_0" pos="31.82" length="12.39" friendlyPos="1"/>
+        <access lane="90513822#1_0" pos="50.45" length="8.97" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-427144117" name="Jyväskylä Keskusta 1" lane="-650577130#1_0" startPos="94.78" endPos="109.78" friendlyPos="true">
+        <access lane="1085609933#3_0" pos="102.68" length="0.00" friendlyPos="1"/>
+        <access lane="1085609933#8_0" pos="7.54" length="12.70" friendlyPos="1"/>
+        <access lane="90513822#0_0" pos="103.24" length="9.06" friendlyPos="1"/>
+        <access lane="90513822#1_0" pos="0.00" length="20.76" friendlyPos="1"/>
+        <access lane="949810263#2_0" pos="0.20" length="18.47" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-427144124" name="Kirjasto 2" lane="-36735996#3_0" startPos="42.53" endPos="57.53" friendlyPos="true">
+        <access lane="-1057670494#0_0" pos="6.10" length="29.20" friendlyPos="1"/>
+        <access lane="1031319054_0" pos="0.74" length="38.93" friendlyPos="1"/>
+        <access lane="1057670494#0_0" pos="0.00" length="30.12" friendlyPos="1"/>
+        <access lane="90044371#0_0" pos="56.51" length="40.87" friendlyPos="1"/>
+        <access lane="90044371#1_0" pos="20.96" length="12.80" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-427144127" name="Kirjasto 1" lane="-36735996#3_0" startPos="33.04" endPos="48.04" friendlyPos="true" lines="8 5 15 15K">
+        <access lane="-1057670494#0_0" pos="6.10" length="41.92" friendlyPos="1"/>
+        <access lane="1057670494#0_0" pos="0.00" length="45.41" friendlyPos="1"/>
+        <access lane="121785130#7_0" pos="42.27" length="47.85" friendlyPos="1"/>
+        <access lane="121785130#8_0" pos="10.16" length="42.09" friendlyPos="1"/>
+        <access lane="90044371#1_0" pos="38.35" length="12.41" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-427741938" name="Urhonkatu 4" lane="-36736534#1_0" startPos="29.90" endPos="44.90" friendlyPos="true" lines="13">
+        <access lane="-1083289619#1_0" pos="0.00" length="72.31" friendlyPos="1"/>
+        <access lane="-39544441#2_0" pos="83.57" length="48.18" friendlyPos="1"/>
+        <access lane="1083289619#1_0" pos="9.22" length="68.03" friendlyPos="1"/>
+        <access lane="39544441#2_0" pos="37.24" length="51.18" friendlyPos="1"/>
+        <access lane="41191113_0" pos="117.31" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-427741940" name="Urhonkatu 3;Väinönkatu 1" lane="-36736000#12_0" startPos="33.27" endPos="48.27" friendlyPos="true" lines="13 8 5 40 13M 14 14M 15K 16 16M 21 21M 22 12">
+        <access lane="-39544441#6_0" pos="35.54" length="7.00" friendlyPos="1"/>
+        <access lane="1018593732_0" pos="0.00" length="49.31" friendlyPos="1"/>
+        <access lane="39544441#6_0" pos="41.47" length="10.00" friendlyPos="1"/>
+        <access lane="41191116#2_0" pos="47.88" length="46.34" friendlyPos="1"/>
+        <access lane="41191116#3_0" pos="2.36" length="45.01" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-428075078" name="Satama 1" lane="-1255350557_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-122106502#1_0" pos="0.00" length="20.10" friendlyPos="1"/>
+        <access lane="-122106502#2_0" pos="18.11" length="6.74" friendlyPos="1"/>
+        <access lane="1057110772_0" pos="0.00" length="20.53" friendlyPos="1"/>
+        <access lane="122106502#1_0" pos="37.16" length="21.39" friendlyPos="1"/>
+        <access lane="122106502#2_0" pos="7.79" length="9.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-428075083" name="Jyväskylä Kauppatori 8" lane="-36865768_0" startPos="53.66" endPos="68.66" friendlyPos="true" lines="8 5 Pihtipudas-Jyväskylä 15K 10 22">
+        <access lane="121559884#1_0" pos="47.73" length="0.00" friendlyPos="1"/>
+        <access lane="156532899#0_0" pos="0.00" length="75.50" friendlyPos="1"/>
+        <access lane="32205651_0" pos="0.00" length="76.11" friendlyPos="1"/>
+        <access lane="40979326#5_0" pos="79.62" length="56.69" friendlyPos="1"/>
+        <access lane="51392609#1_0" pos="45.44" length="21.14" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-428075084" name="Jyväskylä Kauppatori 9" lane="-36865768_0" startPos="27.54" endPos="42.54" friendlyPos="true" lines="13 14 16 16M 21 21M">
+        <access lane="121559884#1_0" pos="73.86" length="0.00" friendlyPos="1"/>
+        <access lane="40979326#5_0" pos="53.50" length="56.63" friendlyPos="1"/>
+        <access lane="51392609#1_0" pos="71.55" length="20.18" friendlyPos="1"/>
+        <access lane="53059787#1_0" pos="7.54" length="58.55" friendlyPos="1"/>
+        <access lane="53059787#2_0" pos="0.00" length="58.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6029151339" name="Pali 1/ Asemakatu" lane="-36789027_0" startPos="64.52" endPos="79.52" friendlyPos="true" lines="13M 13">
+        <access lane="-650578445#2_0" pos="0.00" length="41.74" friendlyPos="1"/>
+        <access lane="1082148693#8_0" pos="55.83" length="23.37" friendlyPos="1"/>
+        <access lane="1082148693#9_0" pos="15.29" length="16.15" friendlyPos="1"/>
+        <access lane="233901263#0_0" pos="52.27" length="26.89" friendlyPos="1"/>
+        <access lane="233901263#1_0" pos="12.90" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6029151343" name="Maakuntakeskus" lane="-121904037#3_0" startPos="0.00" endPos="8.52" friendlyPos="true">
+        <access lane="-50804650#1_0" pos="14.15" length="22.41" friendlyPos="1"/>
+        <access lane="-75512306#7_0" pos="110.52" length="1.50" friendlyPos="1"/>
+        <access lane="50804650#0_0" pos="8.83" length="19.19" friendlyPos="1"/>
+        <access lane="50804650#1_0" pos="0.00" length="17.73" friendlyPos="1"/>
+        <access lane="75512306#7_0" pos="8.25" length="1.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-731417280" name="Messukeskus 1" lane="-40927608#3_0" startPos="116.20" endPos="131.20" friendlyPos="true" lines="18 18K 19">
+        <access lane="-55498471#13_0" pos="0.00" length="14.88" friendlyPos="1"/>
+        <access lane="-55498471#14_0" pos="127.02" length="1.50" friendlyPos="1"/>
+        <access lane="195574233#0_0" pos="0.00" length="12.34" friendlyPos="1"/>
+        <access lane="55498471#13_0" pos="23.56" length="14.82" friendlyPos="1"/>
+        <access lane="55498471#14_0" pos="4.90" length="1.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-731486445" name="Heikinkatu 1" lane="-48900315#7_0" startPos="62.44" endPos="77.44" friendlyPos="true">
+        <access lane="-195978001#1_0" pos="133.46" length="34.13" friendlyPos="1"/>
+        <access lane="-40584733#5_0" pos="71.34" length="43.85" friendlyPos="1"/>
+        <access lane="195978001#1_0" pos="46.82" length="29.33" friendlyPos="1"/>
+        <access lane="40584733#5_0" pos="11.34" length="46.85" friendlyPos="1"/>
+        <access lane="59017595#0_0" pos="69.44" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-9713351376" lane="-1255350557_0" startPos="8.13" endPos="8.13" friendlyPos="true" lines="5">
+        <access lane="-122106502#1_0" pos="0.00" length="25.98" friendlyPos="1"/>
+        <access lane="-122106502#2_0" pos="13.45" length="1.50" friendlyPos="1"/>
+        <access lane="1057110771_0" pos="0.00" length="24.54" friendlyPos="1"/>
+        <access lane="1057110772_0" pos="0.00" length="23.04" friendlyPos="1"/>
+        <access lane="122106502#2_0" pos="12.40" length="1.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-9948795329" lane="-36789027_0" startPos="199.59" endPos="199.59" friendlyPos="true" lines="8 5 15K 20 25 26">
+        <access lane="-32065154#1_0" pos="54.07" length="1.50" friendlyPos="1"/>
+        <access lane="1107065405#0_0" pos="113.34" length="72.57" friendlyPos="1"/>
+        <access lane="233901263#1_0" pos="140.37" length="55.33" friendlyPos="1"/>
+        <access lane="32065154#1_0" pos="199.33" length="1.50" friendlyPos="1"/>
+        <access lane="52291936_0" pos="174.47" length="99.21" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-9948795330" lane="-36789027_0" startPos="115.83" endPos="115.83" friendlyPos="true" lines="13 14 14M 16 16M 21 21M 22">
+        <access lane="-32065154#1_0" pos="137.84" length="1.50" friendlyPos="1"/>
+        <access lane="233901263#1_0" pos="56.74" length="54.70" friendlyPos="1"/>
+        <access lane="32065154#1_0" pos="115.56" length="1.50" friendlyPos="1"/>
+        <access lane="52291936_0" pos="90.70" length="99.76" friendlyPos="1"/>
+        <access lane="9827429#11_0" pos="72.24" length="73.79" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-9948795331" lane="-36789027_0" startPos="253.78" endPos="253.78" friendlyPos="true" lines="13">
+        <access lane="-1056911807_0" pos="9.77" length="42.21" friendlyPos="1"/>
+        <access lane="-32065154#1_0" pos="0.00" length="54.28" friendlyPos="1"/>
+        <access lane="1056911807_0" pos="85.45" length="47.01" friendlyPos="1"/>
+        <access lane="233901263#1_0" pos="194.71" length="0.00" friendlyPos="1"/>
+        <access lane="52291936_0" pos="203.90" length="56.66" friendlyPos="1"/>
+    </busStop>
+    <busStop id="126667160" name="Heikinkatu 2" lane="48900315#5_0" startPos="0.00" endPos="15.00" friendlyPos="true" lines="18 18K">
+        <access lane="-195978002#0_0" pos="10.24" length="29.17" friendlyPos="1"/>
+        <access lane="-40584733#3_0" pos="24.95" length="1.50" friendlyPos="1"/>
+        <access lane="195978002#0_0" pos="0.00" length="28.24" friendlyPos="1"/>
+        <access lane="40584733#3_0" pos="20.84" length="1.50" friendlyPos="1"/>
+        <access lane="977377432_0" pos="0.00" length="35.41" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1543094086" name="Jyväskylä Matkakeskus" lane="44842048_0" startPos="51.49" endPos="66.49" friendlyPos="true" lines="40"/>
+    <busStop id="1543094086@2109154" name="Jyväskylä Matkakeskus" lane="156532898_0" startPos="0.00" endPos="10.64" friendlyPos="true" lines="Keuruu – Jyväskylä Uurainen – Jyväskylä Pihtipudas-Jyväskylä">
+        <access lane="1022462308_0" pos="0.00" length="27.53" friendlyPos="1"/>
+        <access lane="13717848#2_0" pos="17.32" length="27.22" friendlyPos="1"/>
+        <access lane="229036768#1_0" pos="70.53" length="28.69" friendlyPos="1"/>
+        <access lane="229036768#2_0" pos="13.79" length="0.00" friendlyPos="1"/>
+        <access lane="668997684#3_0" pos="83.03" length="6.87" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1700106470" name="Kauppatori 1" lane="42412169#8_0" startPos="52.99" endPos="77.99" friendlyPos="true"/>
+    <busStop id="427144104" name="Urhonkatu 1" lane="36736000#12_0" startPos="38.49" endPos="53.49" friendlyPos="true" lines="19">
+        <access lane="-39544441#6_0" pos="26.29" length="1.50" friendlyPos="1"/>
+        <access lane="-39544441#7_0" pos="14.07" length="46.89" friendlyPos="1"/>
+        <access lane="122217269#0_0" pos="0.00" length="44.03" friendlyPos="1"/>
+        <access lane="39544441#6_0" pos="50.72" length="1.50" friendlyPos="1"/>
+        <access lane="39544441#7_0" pos="0.00" length="46.97" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427144106" name="Jyväskylä Keskusta 7" lane="650577130#1_0" startPos="100.69" endPos="115.69" friendlyPos="true">
+        <access lane="-39401888#4_0" pos="11.34" length="8.38" friendlyPos="1"/>
+        <access lane="-39401888#5_0" pos="17.53" length="26.20" friendlyPos="1"/>
+        <access lane="1082148693#4_0" pos="109.20" length="22.76" friendlyPos="1"/>
+        <access lane="1082148693#5_0" pos="17.29" length="0.00" friendlyPos="1"/>
+        <access lane="39401888#4_0" pos="108.98" length="11.38" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427144107" name="Jyväskylä Keskusta 6" lane="650577130#0_0" startPos="0.00" endPos="15.00" friendlyPos="true">
+        <access lane="-121551922#2_0" pos="0.00" length="32.14" friendlyPos="1"/>
+        <access lane="-39401888#3_0" pos="18.67" length="13.52" friendlyPos="1"/>
+        <access lane="1082148693#3_0" pos="76.81" length="24.59" friendlyPos="1"/>
+        <access lane="1082148693#6_0" pos="19.26" length="0.00" friendlyPos="1"/>
+        <access lane="39401888#3_0" pos="119.31" length="16.52" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427144108" name="Jyväskylä Keskusta 5" lane="55358956#1_0" startPos="88.11" endPos="103.11" friendlyPos="true">
+        <access lane="-39401888#3_0" pos="42.38" length="16.23" friendlyPos="1"/>
+        <access lane="1082148693#3_0" pos="53.15" length="28.14" friendlyPos="1"/>
+        <access lane="1082148693#6_0" pos="43.04" length="0.00" friendlyPos="1"/>
+        <access lane="121551922#2_0" pos="6.12" length="33.97" friendlyPos="1"/>
+        <access lane="39401888#3_0" pos="95.60" length="19.23" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427144109" name="Jyväskylä Keskusta 4" lane="36736000#0_0" startPos="0.00" endPos="13.00" friendlyPos="true" lines="3 1 2 43 42 1M 2M">
+        <access lane="1082148693#6_0" pos="112.04" length="31.64" friendlyPos="1"/>
+        <access lane="1085609933#4_0" pos="77.46" length="0.00" friendlyPos="1"/>
+        <access lane="1085609933#6_0" pos="110.87" length="15.49" friendlyPos="1"/>
+        <access lane="233901265#0_0" pos="0.00" length="45.92" friendlyPos="1"/>
+        <access lane="90513822#2_0" pos="77.73" length="8.45" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427144130" name="Kirjasto 3" lane="36735997#1_0" startPos="46.41" endPos="61.41" friendlyPos="true" lines="13 25">
+        <access lane="-230483570#10_0" pos="33.05" length="30.30" friendlyPos="1"/>
+        <access lane="-230483570#9_0" pos="15.18" length="1.50" friendlyPos="1"/>
+        <access lane="1031319055#2_0" pos="31.10" length="26.99" friendlyPos="1"/>
+        <access lane="230483570#10_0" pos="0.00" length="30.30" friendlyPos="1"/>
+        <access lane="230483570#9_0" pos="96.43" length="1.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427144133" name="Kirjasto 5" lane="25832375#2_0" startPos="22.34" endPos="37.34" friendlyPos="true" lines="25 12K 41 27 10">
+        <access lane="-1057678079#0_0" pos="0.00" length="49.58" friendlyPos="1"/>
+        <access lane="-1057678079#1_0" pos="117.48" length="49.72" friendlyPos="1"/>
+        <access lane="121785142#0_0" pos="0.00" length="46.44" friendlyPos="1"/>
+        <access lane="121785142#1_0" pos="0.00" length="54.27" friendlyPos="1"/>
+        <access lane="42412165#6_0" pos="29.88" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427144135" name="Kirjasto 6" lane="25832375#1_0" startPos="48.40" endPos="63.40" friendlyPos="true" lines="3 1 2 8 43 42 15 13 14 5 1M 2M 18 18K">
+        <access lane="-1057678079#0_0" pos="0.00" length="37.89" friendlyPos="1"/>
+        <access lane="-1057678079#1_0" pos="117.48" length="37.76" friendlyPos="1"/>
+        <access lane="1057678079#0_0" pos="4.74" length="33.13" friendlyPos="1"/>
+        <access lane="1057678079#1_0" pos="0.00" length="32.98" friendlyPos="1"/>
+        <access lane="42412165#5_0" pos="55.98" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427741938" name="Urhonkatu 4" lane="36736534#1_0" startPos="75.99" endPos="90.99" friendlyPos="true" lines="8 12K 42 41 13 14 14M 16 15K 5 22 16M 21M 21">
+        <access lane="-1083289619#1_0" pos="0.00" length="72.31" friendlyPos="1"/>
+        <access lane="-39544441#2_0" pos="83.57" length="48.18" friendlyPos="1"/>
+        <access lane="1083289619#1_0" pos="9.22" length="68.03" friendlyPos="1"/>
+        <access lane="39544441#2_0" pos="37.24" length="51.18" friendlyPos="1"/>
+        <access lane="41191113_0" pos="117.31" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427741940" name="Urhonkatu 3;Väinönkatu 1" lane="36736000#12_0" startPos="47.62" endPos="62.62" friendlyPos="true" lines="13">
+        <access lane="-39544441#6_0" pos="35.54" length="7.00" friendlyPos="1"/>
+        <access lane="1018593732_0" pos="0.00" length="49.31" friendlyPos="1"/>
+        <access lane="39544441#6_0" pos="41.47" length="10.00" friendlyPos="1"/>
+        <access lane="41191116#2_0" pos="47.88" length="46.34" friendlyPos="1"/>
+        <access lane="41191116#3_0" pos="2.36" length="45.01" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427741944" name="Kauppatori 11" lane="219839544_0" startPos="53.83" endPos="68.83" friendlyPos="true" lines="40 Jyväskylä - Pihtipudas">
+        <access lane="-1106820246#1_0" pos="52.41" length="70.53" friendlyPos="1"/>
+        <access lane="1031315248_0" pos="31.09" length="111.52" friendlyPos="1"/>
+        <access lane="1106820246#1_0" pos="93.84" length="65.73" friendlyPos="1"/>
+        <access lane="169781564#0_0" pos="67.85" length="52.43" friendlyPos="1"/>
+        <access lane="40979326#4_0" pos="85.13" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="427741946" name="Kauppatori 12" lane="219839544_0" startPos="95.11" endPos="110.11" friendlyPos="true" lines="1M 8 12K 42 41 10 13 14 16 5 22 16M 21M 21">
+        <access lane="-1106820246#1_0" pos="93.68" length="70.14" friendlyPos="1"/>
+        <access lane="1106820246#1_0" pos="52.56" length="65.34" friendlyPos="1"/>
+        <access lane="169781564#0_0" pos="109.12" length="50.99" friendlyPos="1"/>
+        <access lane="40979326#4_0" pos="43.86" length="0.00" friendlyPos="1"/>
+        <access lane="53060870#0_0" pos="0.00" length="69.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="428075079" name="Satama 2" lane="1255350561_0" startPos="26.08" endPos="41.08" friendlyPos="true" lines="15K 20 18K">
+        <access lane="-111636792#4_0" pos="191.73" length="6.70" friendlyPos="1"/>
+        <access lane="-122023145#0_0" pos="129.97" length="45.26" friendlyPos="1"/>
+        <access lane="111636792#4_0" pos="85.58" length="3.70" friendlyPos="1"/>
+        <access lane="122023131#1_0" pos="67.74" length="50.06" friendlyPos="1"/>
+        <access lane="39402300#7_0" pos="9.30" length="80.53" friendlyPos="1"/>
+    </busStop>
+    <busStop id="428075079@8859231" name="Satama 2" lane="175482171#2_0" startPos="27.20" endPos="42.20" friendlyPos="true" lines="18">
+        <access lane="-111636792#4_0" pos="191.73" length="6.70" friendlyPos="1"/>
+        <access lane="-122023145#0_0" pos="129.97" length="45.26" friendlyPos="1"/>
+        <access lane="111636792#4_0" pos="85.58" length="3.70" friendlyPos="1"/>
+        <access lane="122023131#1_0" pos="67.74" length="50.06" friendlyPos="1"/>
+        <access lane="39402300#7_0" pos="9.30" length="80.53" friendlyPos="1"/>
+    </busStop>
+    <busStop id="428075082" name="Jyväskylä Kauppatori 10" lane="219919658_0" startPos="0.06" endPos="15.06" friendlyPos="true" lines="40 27">
+        <access lane="121559884#0_0" pos="0.20" length="44.04" friendlyPos="1"/>
+        <access lane="121559884#1_0" pos="24.70" length="0.00" friendlyPos="1"/>
+        <access lane="156532899#0_0" pos="0.00" length="41.03" friendlyPos="1"/>
+        <access lane="32205651_0" pos="0.00" length="46.77" friendlyPos="1"/>
+        <access lane="51392609#1_0" pos="22.41" length="21.98" friendlyPos="1"/>
+    </busStop>
+    <busStop id="428075084" name="Jyväskylä Kauppatori 9" lane="36865768_0" startPos="40.51" endPos="55.51" friendlyPos="true" lines="13 14">
+        <access lane="121559884#1_0" pos="73.86" length="0.00" friendlyPos="1"/>
+        <access lane="40979326#5_0" pos="53.50" length="56.63" friendlyPos="1"/>
+        <access lane="51392609#1_0" pos="71.55" length="20.18" friendlyPos="1"/>
+        <access lane="53059787#1_0" pos="7.54" length="58.55" friendlyPos="1"/>
+        <access lane="53059787#2_0" pos="0.00" length="58.44" friendlyPos="1"/>
+    </busStop>
+    <busStop id="431901579" name="Kauppatori 2" lane="53060862#2_0" startPos="9.31" endPos="24.31" friendlyPos="true" lines="Jyväskylä – Keuruu Jyväskylä – Uurainen">
+        <access lane="-50760934#0_0" pos="0.00" length="30.14" friendlyPos="1"/>
+        <access lane="-50760934#1_0" pos="96.11" length="29.92" friendlyPos="1"/>
+        <access lane="-53059778#0_0" pos="16.55" length="1.50" friendlyPos="1"/>
+        <access lane="50760934#1_0" pos="0.00" length="34.66" friendlyPos="1"/>
+        <access lane="53059778#0_0" pos="215.46" length="1.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="431937849" name="Palveluliikenne" lane="36789027_0" startPos="182.04" endPos="197.04" friendlyPos="true" lines="16">
+        <access lane="-650578445#2_0" pos="0.00" length="30.39" friendlyPos="1"/>
+        <access lane="1082148693#8_0" pos="55.83" length="12.00" friendlyPos="1"/>
+        <access lane="1082148693#9_0" pos="0.00" length="12.11" friendlyPos="1"/>
+        <access lane="233901263#0_0" pos="52.27" length="15.23" friendlyPos="1"/>
+        <access lane="233901263#1_0" pos="5.13" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="475315140" name="Tilausajo 10" lane="10205713#0_0" startPos="298.12" endPos="313.12" friendlyPos="true">
+        <access lane="43112541#0_0" pos="324.29" length="0.00" friendlyPos="1"/>
+        <access lane="43112541#1_0" pos="0.00" length="137.98" friendlyPos="1"/>
+        <access lane="524589540#3_0" pos="83.25" length="70.79" friendlyPos="1"/>
+        <access lane="52977654#1_0" pos="119.12" length="134.30" friendlyPos="1"/>
+        <access lane="52977654#2_0" pos="5.93" length="133.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6029151339" name="Pali 1/ Asemakatu" lane="36789027_0" startPos="174.27" endPos="189.27" friendlyPos="true" lines="25 12K 41 10 20 16M">
+        <access lane="-650578445#2_0" pos="0.00" length="41.74" friendlyPos="1"/>
+        <access lane="1082148693#8_0" pos="55.83" length="23.37" friendlyPos="1"/>
+        <access lane="1082148693#9_0" pos="15.29" length="16.15" friendlyPos="1"/>
+        <access lane="233901263#0_0" pos="52.27" length="26.89" friendlyPos="1"/>
+        <access lane="233901263#1_0" pos="12.90" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6029151788" name="Pali 6/ Lutakko" lane="8582335#10_0" startPos="41.32" endPos="56.32" friendlyPos="true">
+        <access lane="-111707946#1_0" pos="139.97" length="1.50" friendlyPos="1"/>
+        <access lane="-55498471#4_0" pos="47.54" length="67.08" friendlyPos="1"/>
+        <access lane="1047690401_0" pos="16.54" length="68.02" friendlyPos="1"/>
+        <access lane="111707946#1_0" pos="80.21" length="1.50" friendlyPos="1"/>
+        <access lane="55498471#4_0" pos="36.42" length="64.08" friendlyPos="1"/>
+    </busStop>
+    <busStop id="648569674" name="Messukeskus 2" lane="40927608#3_0" startPos="66.78" endPos="81.78" friendlyPos="true" lines="18 18K">
+        <access lane="-111707946#5_0" pos="125.13" length="1.50" friendlyPos="1"/>
+        <access lane="-55498471#14_0" pos="82.79" length="64.99" friendlyPos="1"/>
+        <access lane="111707946#5_0" pos="157.71" length="1.50" friendlyPos="1"/>
+        <access lane="55498471#13_0" pos="23.56" length="102.00" friendlyPos="1"/>
+        <access lane="55498471#14_0" pos="49.13" length="61.99" friendlyPos="1"/>
+    </busStop>
+    <busStop id="648569883" name="Schaumanin linna 2" lane="8582335#2_0" startPos="82.56" endPos="97.56" friendlyPos="true" lines="18 18K">
+        <access lane="-39402299#2_0" pos="0.00" length="24.08" friendlyPos="1"/>
+        <access lane="-39402299#3_0" pos="95.75" length="1.50" friendlyPos="1"/>
+        <access lane="195590614#0_0" pos="0.00" length="20.57" friendlyPos="1"/>
+        <access lane="39402299#2_0" pos="73.29" length="24.08" friendlyPos="1"/>
+        <access lane="39402299#3_0" pos="10.99" length="1.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="650774425" name="Urhonkatu 2" lane="36736000#13_0" startPos="5.66" endPos="20.66" friendlyPos="true" lines="25 3 1 2 43 42 10 20 1M 2M 18 18K">
+        <access lane="-195412366#0_0" pos="12.68" length="41.01" friendlyPos="1"/>
+        <access lane="-39544441#5_0" pos="13.08" length="51.21" friendlyPos="1"/>
+        <access lane="195412366#0_0" pos="0.00" length="37.63" friendlyPos="1"/>
+        <access lane="39544441#5_0" pos="52.13" length="54.21" friendlyPos="1"/>
+        <access lane="41191116#3_0" pos="66.01" length="0.00" friendlyPos="1"/>
+    </busStop>
+    <busStop id="659578624" name="Tourunsilta 2" lane="32236937_0" startPos="133.21" endPos="148.21" friendlyPos="true" lines="25 3 1 2 43 42 10 20 1M 2M">
+        <access lane="-1058056426#1_0" pos="127.15" length="1.51" friendlyPos="1"/>
+        <access lane="-195977681#1_0" pos="0.00" length="54.46" friendlyPos="1"/>
+        <access lane="-195977748#1_0" pos="0.00" length="108.41" friendlyPos="1"/>
+        <access lane="1058056426#1_0" pos="94.23" length="1.50" friendlyPos="1"/>
+        <access lane="195977681#1_0" pos="120.16" length="59.16" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9948795330" lane="36789027_0" startPos="137.95" endPos="137.95" friendlyPos="true" lines="13">
+        <access lane="-32065154#1_0" pos="137.84" length="1.50" friendlyPos="1"/>
+        <access lane="233901263#1_0" pos="56.74" length="54.70" friendlyPos="1"/>
+        <access lane="32065154#1_0" pos="115.56" length="1.50" friendlyPos="1"/>
+        <access lane="52291936_0" pos="90.70" length="99.76" friendlyPos="1"/>
+        <access lane="9827429#11_0" pos="72.24" length="73.79" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9948795331" lane="36789027_0" startPos="0.00" endPos="0.00" friendlyPos="true" lines="8 13 14 14M 16 15K 5 13M 21M 21 18 18K">
+        <access lane="-1056911807_0" pos="9.77" length="42.21" friendlyPos="1"/>
+        <access lane="-32065154#1_0" pos="0.00" length="54.28" friendlyPos="1"/>
+        <access lane="1056911807_0" pos="85.45" length="47.01" friendlyPos="1"/>
+        <access lane="233901263#1_0" pos="194.71" length="0.00" friendlyPos="1"/>
+        <access lane="52291936_0" pos="203.90" length="56.66" friendlyPos="1"/>
+    </busStop>
+</additional>

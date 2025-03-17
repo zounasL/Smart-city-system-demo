@@ -1,0 +1,54 @@
+Warning: Program '0' at tlLogic 'joinedS_1657318651_536887439_671922840_671922847' is incompatible with logic at junction '536887439' (mutual conflict between link indices 2,6 tl indices 11,15 phase 0).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: Program '0' at tlLogic 'joinedS_1657318651_536887439_671922840_671922847' is incompatible with logic at junction '671922840' (mutual conflict between link indices 2,5 tl indices 26,29 phase 0).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: Program '0' at tlLogic 'joinedS_1657318651_536887439_671922840_671922847' is incompatible with logic at junction '671922847' (mutual conflict between link indices 2,5 tl indices 41,44 phase 0).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: At actuated tlLogic 'joinedS_2390376072_391033341_391033342_536887525_#2more', actuated phase 0 has no controlling detector.
+Warning: At actuated tlLogic 'joinedS_361162857_391033339_536887475_536887479', linkIndex 4 has no controlling detector.
+Warning: At actuated tlLogic 'joinedS_361162857_391033339_536887475_536887479', linkIndex 5 has no controlling detector.
+Warning: At actuated tlLogic 'joinedS_361162857_391033339_536887475_536887479', linkIndex 6 has no controlling detector.
+Warning: At actuated tlLogic 'joinedS_361162857_391033339_536887475_536887479', linkIndex 7 has no controlling detector.
+Warning: At actuated tlLogic 'joinedS_361162857_391033339_536887475_536887479', linkIndex 20 has no controlling detector.
+Warning: Program '0' at tlLogic 'joinedS_391033347_660218468_cluster_1654901866_3625617340_619238071_660218495' is incompatible with logic at junction 'cluster_1654901866_3625617340_619238071_660218495' (mutual conflict between link indices 14,27 tl indices 35,48 phase 0).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: Program '0' at tlLogic 'joinedS_472085887_895553728_cluster_78536826_920208877' is incompatible with logic at junction 'cluster_78536826_920208877' (mutual conflict between link indices 9,11 tl indices 33,35 phase 0).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: Program '0' at tlLogic 'joinedS_503201712_538165714_671894030_671894032' is incompatible with logic at junction '671894030' (mutual conflict between link indices 2,5 tl indices 14,17 phase 6).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: Program '0' at tlLogic 'joinedS_503201712_538165714_671894030_671894032' is incompatible with logic at junction '671894032' (mutual conflict between link indices 2,5 tl indices 28,31 phase 6).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: Program '0' at tlLogic 'joinedS_519391865_519391912_cluster_472085886_96903453_96903458' is incompatible with logic at junction 'cluster_472085886_96903453_96903458' (mutual conflict between link indices 3,8 tl indices 7,12 phase 12).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: Program '0' at tlLogic 'joinedS_538165720_538165721_671894036_84408411_#1more' is incompatible with logic at junction '538165721' (mutual conflict between link indices 2,6 tl indices 12,16 phase 0).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: Program '0' at tlLogic 'joinedS_895553727_920208914_cluster_2390725360_26009315_536887610_78536098_#1more' is incompatible with logic at junction 'cluster_2390725360_26009315_536887610_78536098_#1more' (mutual conflict between link indices 0,13 tl indices 21,34 phase 0).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: Program '0' at tlLogic 'joinedS_cluster_11482132519_255360556_648569881_cluster_1860634627_1860634644_648569882_81628331' is incompatible with logic at junction 'cluster_11482132519_255360556_648569881' (mutual conflict between link indices 7,19 tl indices 7,19 phase 0).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: busStop '-9948795330' on lane '-36789027_0' is too short for vehicle '0_bus_13:0'.
+Warning: busStop '-9948795329' on lane '-36789027_0' is too short for vehicle '1_bus_8:0'.
+Warning: busStop '9948795331' on lane '36789027_0' is too short for vehicle '17_bus_8:1'.
+Warning: Vehicle '29_bus_Keuruu_–_Jyväskylä:0' is not allowed to stop on lane '42412169#8_0'.
+Warning: Vehicle '31_bus_Uurainen_–_Jyväskylä:0' is not allowed to stop on lane '42412169#8_0'.
+Warning: Vehicle '36_bus_Pihtipudas-Jyväskylä:0' is not allowed to stop on lane '42412169#8_0'.
+Warning: Vehicle '37_bus_Pihtipudas-Jyväskylä:1' is not allowed to stop on lane '42412169#8_0'.
+Warning: Vehicle '37_bus_Pihtipudas-Jyväskylä:1' is not allowed to stop on lane '42412169#8_0'.
+Warning: Vehicle '36_bus_Pihtipudas-Jyväskylä:0' is not allowed to stop on lane '42412169#8_0'.
+Warning: Vehicle '29_bus_Keuruu_–_Jyväskylä:0' is not allowed to depart on any lane of edge '42412169#8'.
+Warning: Vehicle '31_bus_Uurainen_–_Jyväskylä:0' is not allowed to depart on any lane of edge '42412169#8'.
+Warning: busStop '-9948795331' on lane '-36789027_0' is too short for vehicle '46_bus_13:2'.
+Warning: busStop '-9713351376' on lane '-1255350557_0' is too short for vehicle '82_bus_5:2'.
+Warning: busStop '9948795330' on lane '36789027_0' is too short for vehicle '92_bus_13:5'.
+Warning: 28 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.

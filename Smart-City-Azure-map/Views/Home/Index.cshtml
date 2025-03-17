@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Azure Map";
+}
+
+<select onchange="onMapLayerChange(this.value)">
+    <option value="">Select layer</option>
+    @foreach (var item in ViewData["layersList"] as IEnumerable<string>)
+    {
+        <option value=@item>@item</option>
+    }
+</select>
+
+<div id="map" style="position:relative;width:100vw;height:100vh;background-color:gray"></div>
+
